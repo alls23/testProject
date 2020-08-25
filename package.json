@@ -1,0 +1,29 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "Test project ",
+  "main": "app.ts",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec src/app.ts"
+  },
+  "keywords": [
+    "nodejs",
+    "mssql",
+    "docker"
+  ],
+  "author": "Iurie Gordienco",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mssql": "^6.0.3",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "mssql": "^6.2.1",
+    "xlsx": "^0.16.6"
+  }
+}
