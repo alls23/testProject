@@ -1,4 +1,5 @@
 EP Boilerplate
+================
 Questa progetto è stato creato come template di applicazione che sfrutta Angular, Ionic e l'integrazione con la libreria di EP framework. Questo codice può essere utilizzato come base di partenza per lo sviluppo di un progetto o semplicemente essere preso come esempio.
 
 Requisiti
